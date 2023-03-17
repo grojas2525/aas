@@ -1,12 +1,12 @@
 // import hero slider images
-import HeroSlideImage1 from './assets/img/dogs/dog-slide-1.png';
-import HeroSlideImage2 from './assets/img/dogs/dog-slide-2.png';
-import HeroSlideImage3 from './assets/img/dogs/dog-slide-3.png';
+import HeroSlideImage1 from './assets/img/handler1.jpg';
+import HeroSlideImage2 from './assets/img/handler2.jpg';
+import HeroSlideImage3 from './assets/img/handler3.jpg';
 // import dog category images
-import DogCateg1 from './assets/img/dogs/dog-categ-1.png';
-import DogCateg2 from './assets/img/dogs/dog-categ-2.png';
-import DogCateg3 from './assets/img/dogs/dog-categ-3.png';
-import DogCateg4 from './assets/img/dogs/dog-categ-4.png';
+import DogCateg1 from './assets/img/girlmeasuring.jpeg';
+import DogCateg2 from './assets/img/dog-categ-2.png';
+import DogCateg3 from './assets/img/dog-categ-3.png';
+import DogCateg4 from './assets/img/dog-categ-4.png';
 // import social icons
 import { AiFillYoutube, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
 
@@ -32,15 +32,15 @@ export const navigation = [
 export const heroSlider = [
   {
     id: 1,
-    title: 'We take care of your pet.',
+    title: 'Professional art services.',
     image: <HeroSlideImage1 />,
     subtitle:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
+      'From installation to logistics, let us handle it for you.',
     buttonText: 'Get an appointment',
   },
   {
     id: 2,
-    title: 'Lorem ipsum dolor sit.',
+    title: 'Owned and operated by Nashville artists.',
     image: <HeroSlideImage2 />,
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
@@ -48,7 +48,7 @@ export const heroSlider = [
   },
   {
     id: 3,
-    title: 'Nunc odio in et, lectus sit.',
+    title: '.',
     image: <HeroSlideImage3 />,
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
