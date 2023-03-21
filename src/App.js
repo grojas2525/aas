@@ -4,8 +4,8 @@ import React from 'react';
 import Hero from './components/Hero';
 import Header from './components/Header';
 import Appointment from './components/Appointment';
-import Prices from './components/Prices';
-import Bundles from './components/Bundles';
+//import Prices from './components/Prices';
+//import Bundles from './components/Bundles';
 
 
 const App = () => {
@@ -14,10 +14,8 @@ const App = () => {
       <Header />
       <Hero />
       <Appointment />
-      <Prices />
-      <Bundles />
-      
-     <div className='h-[2000px]'></div>
+     
+
     </div>
   );
 };
